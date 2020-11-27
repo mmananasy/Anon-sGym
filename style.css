@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background-image: url(Pics/gym.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  position: absolute;
+}
+.navbar{
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 160px;
+  cursor: pointer;
+}
+nav{
+  flex: 1;
+  padding-left: 60px;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
+}
+nav ul li a{
+  color: white;
+  font-family: fantasy;
+  font-style: oblique;
+  font-size: 30px;
+  background-color: darkslategrey
+}
+.intro{
+  color: white;
+  font-family: fantasy;
+  font-style: oblique;
+  font-size: 40px;
+  position: absolute;
+  top: 160px;
+  right: 800px;
+  background-color: darkslategrey;
+}
+.intropara{
+  color: white;
+  font-family: fantasy;
+  font-size: 25px;
+  font-style: oblique;
+  position: absolute;
+  top: 250px;
+  right: 525px;
+  width: 55%;
+  height: 42%;
+  background-color: darkslategrey;
+}
+.quote{
+  position: absolute;
+  top: 250px;
+  left: 900px;
+  width: 25%;
+  height: 40%;
+  border-style: dashed;
+  border-radius: 10px;
+}
+.resp-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+.resp-iframe {
+  position: fixed;
+  bottom: 150px;
+  right: 950px;
+  width: 20%;
+  height: 30%;
+  border: 15px;
+  border-style: dotted;
+}
+.resp-iframe2 {
+  position: fixed;
+  bottom: 150px;
+  right: 650px;
+  width: 20%;
+  height: 30%;
+  border: 15px;
+  border-style: dotted;
+}
+.resp-iframe3 {
+  position: fixed;
+  bottom: 150px;
+  right: 350px;
+  width: 20%;
+  height: 30%;
+  border: 15px;
+  border-style: dotted;
+}
+.resp-iframe4 {
+  position: fixed;
+  bottom: 150px;
+  right: 50px;
+  width: 20%;
+  height: 30%;
+  border: 15px;
+  border-style: dotted;
+}
+.text{
+  color: white;
+  position: absolute;
+  font-family: fantasy;
+  font-style: oblique;
+  font-size: 30px;
+  top: 150px;
+  left: 50px;
+  background-color: darkslategrey;
+}
+.text2{
+  color: white;
+  position: absolute;
+  font-family: fantasy;
+  font-style: oblique;
+  font-size: 20px;
+  top: 200px;
+  left: 50px;
+  background-color: darkslategrey;
+  list-style: square;
+  list-style-type: square;
+  height: 40%;
+  width: 50%;
+}
+.plate1{
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  top: 75px;
+  left: 800px;
+  border: 5px;
+  border-style: solid;
+  border-radius: 5px;
+}
+.veg{
+  color: white;
+  font-family: fantasy;
+  font-size: 20px;
+  font-style: oblique;
+  position: absolute;
+  width: 60%;
+  height: 15%;
+  top: 460px;
+  left: 50px;
+  background-color: darkslategrey;
+}
+.vegveg{
+  position: absolute;
+  width: 25%;
+  height: 35%;
+  top: 340px;
+  left: 880px;
+  border: 10px;
+  border-style: outset;
+}
+.link1{
+  color: white;
+  position: absolute;
+  background-color: darkslategrey;
+  font-size: 40px;
+  font-style: oblique;
+  font-family: fantasy;
+  top: 200px;
+  left: 30px;
+}
+.link2{
+  color: white;
+  position: absolute;
+  background-color: darkslategrey;
+  font-size: 40px;
+  font-style: oblique;
+  font-family: fantasy;
+  top: 300px;
+  left: 30px;
+}
+.link3{
+  color: white;
+  position: absolute;
+  background-color: darkslategrey;
+  font-size: 40px;
+  font-style: oblique;
+  font-family: fantasy;
+  top: 400px;
+  left: 30px;
+}
+.link4{
+  color: white;
+  position: absolute;
+  background-color: darkslategrey;
+  font-size: 40px;
+  font-style: oblique;
+  font-family: fantasy;
+  top: 200px;
+  left: 600px;
+}
+.link5{
+  color: white;
+  position: absolute;
+  background-color: darkslategrey;
+  font-size: 40px;
+  font-style: oblique;
+  font-family: fantasy;
+  top: 300px;
+  left: 750px;
+}
+.link6{
+  color: white;
+  position: absolute;
+  background-color: darkslategrey;
+  font-size: 40px;
+  font-style: oblique;
+  font-family: fantasy;
+  top: 400px;
+  left: 650px;
+}
